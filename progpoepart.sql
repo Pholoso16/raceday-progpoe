@@ -53,6 +53,7 @@ finish_time char(5),
 finish_position char(5)
 );
 
+--created enrolment table
 create table enrolement(
 enrolement_id int primary key identity(1,1),
 race_date date,
