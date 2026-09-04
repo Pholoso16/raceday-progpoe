@@ -26,6 +26,7 @@ user_id int,
 foreign key (user_id) references users(user_id)
 );
 
+--created a table routes
 create table routes(
 route_id int primary key identity(1,1),
 route_name varchar(50),
