@@ -14,6 +14,7 @@ password char (12),
 role varchar(15)
 );
 
+--created a table events
 create table events(
 event_id int primary key identity(1,1),
 event_type varchar(30),
