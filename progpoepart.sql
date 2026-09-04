@@ -90,6 +90,7 @@ values
 ('walking',120,'5km','R20'),
 ('jogging',300,'10km','R70');
 
+--inserted values
 insert into enrolement(race_date, race_number)
 values
 ('12-04-2026',01);
