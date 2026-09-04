@@ -46,6 +46,7 @@ event_id int,
 foreign key (event_id) references events (event_id)
 );
 
+--created table results
 create table results(
 result_id int primary key identity(1,1),
 finish_time char(5),
