@@ -68,6 +68,7 @@ foreign key (category_id) references categories (category_id)
 
 select * from enrolement;
 
+--inserted values 
 insert into users
 values
 ('jayden adams','ja@raceday.com','ja1234567890','organizer'),
