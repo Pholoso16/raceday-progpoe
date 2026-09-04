@@ -5,6 +5,7 @@ create database RaceDay;
 --using a database
 use RaceDay;
 
+--created a table user
 create table users(
 user_id int primary key identity(1,1),
 full_name varchar(50),
