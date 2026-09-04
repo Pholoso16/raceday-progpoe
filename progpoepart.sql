@@ -35,7 +35,7 @@ distance varchar(20),
 event_id int,
 foreign key (event_id) references events(event_id)
 );
-
+--created the table categories
 create table categories(
 category_id int primary key identity(1,1),
 category_name varchar(30),
