@@ -76,6 +76,7 @@ values
 ('tim curry','tc@gmail.com','tc13579','participant'),
 ('dolly parton' ,'dp@gmail.com','dp12345','participant');
 
+--inserted values
 insert into events(event_type, location, event_description, event_update, event_date, user_id)
 values
 ('marathon','soweto','orlando to protea glen','n/a','12-05-2026',1),
