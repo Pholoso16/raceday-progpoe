@@ -83,6 +83,7 @@ values
 ('park run','joburg','around the fields','n/a','01-09-2026',2),
 ('community walk','hillbrow','hilbrow to basevall','n/a','04-24-2026',1);
 
+--inserted values
 insert into categories(category_name,max_participants,distance,entry_fee)
 values
 ('running',150,'7km','R80'),
